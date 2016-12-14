@@ -1,0 +1,125 @@
+@CHARSET "ISO-8859-1";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+}
+
+html {
+	background: #fff url(../img/bgimage.gif) 0 0 repeat-x;
+	font-family: verdana, arial, sans-serif; color: #333; font-size: 1em;
+}
+
+body {margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; color: #444;}
+
+h1, h2, h3, h4 {color: #555;}
+
+
+a, a:active, a:link, a:visited {font-weight: normal; text-decoration: none;}
+a:hover {font-weight: normal;color:#FF0000;text-decoration: none;}
+
+h4 {font-size: 1.2em; margin: 10px 0px 0px 0px;}
+
+:link img {border: none;}
+img {border: 0px none;}
+
+textarea {width: 760px; background-color: #ffffd8; color: #333; padding: 6px; font-size: 1.1em;}
+
+.lines_5   {height: 100px; width: 800px;}
+.lines_10 {height: 200px; width: 800px;}
+.lines_20 {height: 400px; width: 800px;}
+.lines_40 {height: 800px; width: 800px;}
+
+.code {font-family: "Courier New", Monospace;}
+
+.header {background-color: #FFDD56; height: 79px;}
+.header h1{font-size: 1.6em; color: #555;}
+
+.footer {background: #ffdd56 url(../img/bgimagefooter.gif) 0 0 repeat-x; width: 100%; margin: 20px 0px 0px 0px; padding: 0px; float: left;}
+
+.product_title {text-align: right;}
+
+.innm {padding: 4px;color: #fff; background-color: #553499;border: #320099;border-style: solid;border-width: 1px 0px 0px 0px;margin: 0px;text-align: center;}
+.innm ul {list-style: none;margin: 0px;padding: 0px;}
+.innm li {text-align: center;display: inline;padding: 0px;margin: 0px 40px 0px 0px;}
+.innm a, .innm a:active, .innm a:link, .innm a:visited {font-weight: bold;padding: 4px;color:#fff;text-decoration: none;font-size:11px;}
+.innm a:hover {font-weight: bold;padding: 4px;color:#320099;background-color: #fff;text-decoration: none;}
+
+.mc {color: #fff; background-color: #776699;text-align: center;margin: 0px;padding: 4px;height: 18px;}
+.mc a, .mc a:active, .mc a:link, .mc a:visited {font-weight: bold;color:#fff;text-decoration: none;font-size:11px;}
+.mc a:hover {font-weight: bold;color:#654C99;background-color: #fff; text-decoration: none;}
+
+.cprt {background-color: #FFDD56; text-align: center; margin: 0px; font-size: 10px; padding: 10px 0px 10px 0px;}
+
+.main_content {font-size: 0.8em;}
+.main_content ul {list-style: none; padding: 0px; margin: 0px 0px 0px 4.0em;;}
+.main_content li {margin-bottom: 1.0em; margin-top: 0.5em;}
+
+.jpcodeblock {width: 560px; height: 120px; border: 1px #000 solid; background-color: #FFE57F; font-size: 12px; padding: 4px;}
+
+.pmtable {width: 715px; background-color: #FFE57F; border: #654C99;border-style: solid;border-width: 1px;padding: 5px;margin: 10px;}
+
+.pmheading {background-color: #654C99; color: #fff; padding: 2px;}
+.pmheading2 {background-color: #fff; color: #777; padding: 0px; margin: 0px; font-style: none; font-size: 1.2em;}
+.pmheading td {padding: 4px; border: #999999;border-style: solid;border-width: 0px 1px 1px 0px;}
+
+.pmrow {vertical-align: top;}
+.pmrow td {padding: 4px; border: #999999;border-style: dashed;border-width: 0px 1px 1px 0px;}
+
+.pmtable2 {width: 100%; background-color: #FFE57F; border: #654C99; border-style: solid;border-width: 1px;padding: 0px; margin: 0px;}
+
+.jpcodeblock {
+    width: 500px;
+    height: 120px;
+    border: 1px #000 solid;
+    background-color: #ffffd8;
+    font-size: 12px;
+    padding: 4px;
+
+}
+
+.jptable {
+    width: 800px;
+    border: 0px #000 solid;
+    background-color: #ffffd8;
+    padding: 8px;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.jptable thead {
+    background-color: #654C99;
+    color: #fff;
+}
+
+.jptableRow1 {
+    background-color: #eee;
+}
+
+.jptableRow2 {
+    background-color: #ddd;
+}
+
+.jptable td {
+    border-width: 0px 1px 1px 0px;
+    border-color:  #aaa;
+    border-style: solid;
+    font-size: 12px;
+    padding: 6px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.vertical_menu {font-size: 0.9em; border: #ccc solid; border-width: 0px 1px 0px 0px; padding: 0em;}
+.vertical_menu h3 {font-size: 1.2em;}
+.vertical_menu ul {list-style: none; padding: 0px; margin: 0px;}
+.vertical_menu li {margin-bottom: 1.0em; margin-top: 0.5em;}
